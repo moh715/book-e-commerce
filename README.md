@@ -1,10 +1,10 @@
 # book-e-commerce
 # Online Bookstore System
-The Online Bookstore System is a web-based platform that allows customers to browse, purchase, and track books online. The system connects three main actors — customers, administrators, and a payment gateway — each with distinct responsibilities and interactions within the platform.
+The Online Bookstore System is a web-based platform that allows customers to browse, purchase, and track books online. The system connects three main actors — customers, administrators, and a payment gateway each with distinct responsibilities and interactions within the platform.
 Customers must register and log in before they can place orders. Once logged in, they can search and browse available books, manage a shopping cart, proceed through checkout, and track their orders after purchase. They can also leave reviews on books they have bought.
 Administrators are responsible for maintaining the system's content and operations. This includes managing the book inventory, handling orders, and overseeing user accounts. Administrators do not interact with the storefront directly but manage the platform from the backend.
 Payment processing is handled by an external payment gateway, which is invoked during checkout to validate and complete financial transactions. The gateway operates as a secondary actor, supporting the purchase flow without initiating any actions independently.
-The system also includes a book recommendation feature. Based on a customer's purchase history and the reviews they have submitted, the system generates a list of suggested books when the customer browses the catalogue. This feature is built into the browsing flow and does not require any additional input from the customer — the recommendations are produced automatically using the data already stored in the system.
+The system also includes a book recommendation feature. Based on a customer's purchase history and the reviews they have submitted, the system generates a list of suggested books when the customer browses the catalogue. This feature is built into the browsing flow and does not require any additional input from the customer the recommendations are produced automatically using the data already stored in the system.
 
 # Use Case Diagram
 The Use Case Diagram captures the functional requirements of the Online Bookstore System by mapping each actor to the use cases they interact with.
