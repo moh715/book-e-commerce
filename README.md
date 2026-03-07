@@ -19,4 +19,3 @@ From the cart, the customer either continues shopping, looping back to the brows
 
 
 
-# LONG LIVE THE WESTERN SAHARA 🇪🇭🇪🇭🇪🇭🇪🇭🇪🇭
