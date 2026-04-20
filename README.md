@@ -14,3 +14,6 @@ To show what the system is supposed to do, we created a Use Case Diagram. It bas
 We also made an Activity Diagram to map out the step-by-step flow of what happens when a customer buys a book. It starts with the customer browsing or searching for a book. When they find one they like and view the details, they have the option to add it to their cart. If they click "add," the system first checks if they're logged in. If they aren't, it sends them to a login or registration page before actually adding the book. Once they're logged in, the book goes into their cart. From there, they can either keep shopping (which loops back to browsing) or head to checkout.
 
 When they choose to checkout, they need to enter a shipping address, pick a payment method, and put in their payment details. The system then validates that information. If something's wrong, like an incorrect card number, it shows an error message and asks them to try again. If the payment info is correct, the order is processed, they get a confirmation email, and the system sets it up so they can track their order from that point on. That's where the whole process ends.
+
+
+
