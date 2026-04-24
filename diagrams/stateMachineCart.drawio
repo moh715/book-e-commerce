@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="PEO-MGrJhWSMMMe9L7gQ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dvWmpXU58yMUJRGazysN-1" parent="1" style="ellipse;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="485" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-2" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="EmptyCart" vertex="1">
+          <mxGeometry height="40" width="92" x="446" y="84" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-3" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ActiveCart" vertex="1">
+          <mxGeometry height="40" width="91" x="446" y="198" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-4" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="CheckoutReady" vertex="1">
+          <mxGeometry height="40" width="125" x="20" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-5" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="WaitingPayment" vertex="1">
+          <mxGeometry height="40" width="131" x="282" y="458" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-6" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="340" y="572" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-7" parent="1" style="rounded=1;arcSize=20;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Abandoned" vertex="1">
+          <mxGeometry height="40" width="95" x="342" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry x="775" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="" vertex="1">
+          <mxGeometry x="835" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-10" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-1" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.48;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="dvWmpXU58yMUJRGazysN-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-11" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-2" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.28;exitY=1;entryX=0.29;entryY=0;rounded=0;" target="dvWmpXU58yMUJRGazysN-3" value="add item">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="436" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-12" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.72;exitY=0;entryX=0.71;entryY=1;rounded=0;" target="dvWmpXU58yMUJRGazysN-2" value="remove all items">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="548" y="161" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-13" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-3" style="curved=1;startArrow=none;endArrow=none;fillColor=none;;exitX=1;exitY=0.73;entryX=Infinity;entryY=-Infinity;rounded=0;" target="dvWmpXU58yMUJRGazysN-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-14" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-8" style="curved=1;startArrow=none;endArrow=none;fillColor=none;;exitX=Infinity;exitY=Infinity;entryX=-Infinity;entryY=-Infinity;rounded=0;" target="dvWmpXU58yMUJRGazysN-9" value="add/remove item&#xa;or update quantity">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="775" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-15" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-9" style="curved=1;startArrow=none;;fillColor=none;;exitX=Infinity;exitY=-Infinity;entryX=1;entryY=0.66;rounded=0;" target="dvWmpXU58yMUJRGazysN-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="409" />
+              <mxPoint x="895" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-16" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.64;entryX=0.33;entryY=0;rounded=0;" target="dvWmpXU58yMUJRGazysN-4" value="proceed to checkout">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="20" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-17" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-4" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.66;exitY=0;entryX=0;entryY=0.69;rounded=0;" target="dvWmpXU58yMUJRGazysN-3" value="edit cart">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="145" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-18" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-4" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0;entryY=0.07;rounded=0;" target="dvWmpXU58yMUJRGazysN-5" value="confirm order">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="82" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-19" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-5" style="curved=1;startArrow=none;;fillColor=none;;exitX=1;exitY=0.11;entryX=1;entryY=0.94;rounded=0;" target="dvWmpXU58yMUJRGazysN-3" value="payment failed&#xa;or edit cart">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="409" />
+              <mxPoint x="640" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-20" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-5" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.5;exitY=1;entryX=0.51;entryY=0;rounded=0;" target="dvWmpXU58yMUJRGazysN-6" value="payment success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-21" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-3" style="curved=1;startArrow=none;;fillColor=none;;exitX=0;exitY=0.82;entryX=0.14;entryY=0;rounded=0;" target="dvWmpXU58yMUJRGazysN-7" value="timeout&#xa;(session expiry)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="287" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dvWmpXU58yMUJRGazysN-22" edge="1" parent="1" source="dvWmpXU58yMUJRGazysN-7" style="curved=1;startArrow=none;;fillColor=none;;exitX=0.85;exitY=0;entryX=0.5;entryY=1;rounded=0;" target="dvWmpXU58yMUJRGazysN-3" value="user returns&#xa;&amp; adds item">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
