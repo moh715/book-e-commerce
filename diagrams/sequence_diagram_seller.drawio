@@ -1,0 +1,449 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="35AsyGbuNjtvXPNNAd_z">
+    <mxGraphModel dx="1195" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KAH90aynoNlllZTFOcRv-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=center;size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Seller" vertex="1">
+          <mxGeometry height="3270" width="35" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-71" parent="KAH90aynoNlllZTFOcRv-1" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="5" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Seller Dashboard" vertex="1">
+          <mxGeometry height="3270" width="150" x="569" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-72" parent="KAH90aynoNlllZTFOcRv-2" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="60" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Product Service" vertex="1">
+          <mxGeometry height="3265" width="150" x="917" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-73" parent="KAH90aynoNlllZTFOcRv-3" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="60" y="3235" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Product Database" vertex="1">
+          <mxGeometry height="3265" width="150" x="1293" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-74" parent="KAH90aynoNlllZTFOcRv-4" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="60" y="3235" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Admin Service" vertex="1">
+          <mxGeometry height="3265" width="150" x="1613" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-75" parent="KAH90aynoNlllZTFOcRv-5" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="60" y="3235" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Notification Service" vertex="1">
+          <mxGeometry height="3265" width="157" x="1916" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-76" parent="KAH90aynoNlllZTFOcRv-6" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="63.5" y="3235" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Recommendation Service" vertex="1">
+          <mxGeometry height="3270" width="199" x="2123" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-77" parent="KAH90aynoNlllZTFOcRv-7" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;targetShapes=umlLifeline;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="84.5" y="3240" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-8" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="176" width="919" x="84" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-9" parent="KAH90aynoNlllZTFOcRv-8" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="valid" vertex="1">
+          <mxGeometry height="16.842105263157897" width="889" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-10" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="526" width="2149" x="84" y="1227" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-11" parent="KAH90aynoNlllZTFOcRv-10" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Admin approves product]" vertex="1">
+          <mxGeometry height="20" width="2119" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-12" parent="KAH90aynoNlllZTFOcRv-10" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" value="[Admin rejects product]" vertex="1">
+          <mxGeometry height="4" width="2149" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-13" parent="1" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30;fillColor=light-dark(#eeeeee,#1f2020);fontColor=light-dark(#333333,#cccccc);" value="alt" vertex="1">
+          <mxGeometry height="155" width="1921" x="84" y="2495" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-14" parent="KAH90aynoNlllZTFOcRv-13" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" value="[Stock below threshold]" vertex="1">
+          <mxGeometry height="20" width="1891" x="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-15" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Login with seller credentials">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="129" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-16" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Validate seller account">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-17" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Return seller profile &amp; store details">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1018" y="237" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-18" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Show seller dashboard">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-19" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Click &quot;Add New Product&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-20" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Show product listing form">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="399" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-21" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Submit product details&#xa;(name, desc, price, stock, category, images)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-22" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="Validate product data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="507" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-23" edge="1" parent="1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" value="Return validation">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="549" />
+            </Array>
+            <mxPoint x="991.5" y="549" as="sourcePoint" />
+            <mxPoint x="643.4473684210525" y="549" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-24" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Highlight invalid fields — prompt correction">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="662" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-25" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Resubmit corrected form">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-26" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Save product (status: PENDING_APPROVAL)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1189" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-27" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="Return new product_id">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="834" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-28" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-5" value="Notify admin — new product awaiting review">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1349" y="888" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-29" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-6" value="Trigger admin notification">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1850" y="942" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-30" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Confirm submission to seller">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1331" y="996" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-31" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Show &quot;Product submitted for review&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-32" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Fetch pending products list">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1153" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-33" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-5" value="Return product details">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1537" y="1207" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-34" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Update product status → ACTIVE">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1308" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-35" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-6" value="Notify seller of approval">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1850" y="1362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-36" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Send &quot;Product Approved&quot; email">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="1416" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-37" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-7" value="Register new product in recommendation index">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1964" y="1470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-38" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-7" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-5" value="Acknowledgement">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1967" y="1524" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-39" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Update product status → REJECTED">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1540" y="1625" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-40" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-6" value="Notify seller with rejection reason">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1850" y="1679" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-41" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Send &quot;Product Rejected&quot; email + reason">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="1733" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-42" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Navigate to &quot;My Products&quot; → select product">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="1797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-43" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="Fetch product details (product_id)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="1851" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-44" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Get current stock &amp; price">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1189" y="1905" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-45" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="Return product data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="1959" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-46" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Display product with current stock level">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="2013" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-47" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Show inventory management panel">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="2067" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-48" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Update stock quantity">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="2121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-49" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="updateInventory(product_id, new_qty)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="2175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-50" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Persist updated stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1189" y="2229" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-51" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="Confirm update">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="2283" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-52" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Return updated stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="2337" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-53" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Show success message">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="2391" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-54" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="curved=1;endArrow=block;rounded=0;" target="KAH90aynoNlllZTFOcRv-3" value="Check if stock &lt;= threshold (10 units)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1043" y="2445" />
+              <mxPoint x="1043" y="2475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-55" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-6" value="Trigger low-stock alert">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1502" y="2576" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-56" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Send &quot;Low Stock Warning&quot; notification">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="2630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-57" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Click &quot;Update Price&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="2694" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-58" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Show price update form (current price displayed)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="2748" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-59" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-1" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Submit new price">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="378" y="2802" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-60" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="updatePrice(product_id, new_price)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="2856" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-61" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-4" value="Persist new price + timestamp">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1189" y="2910" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-62" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-3" value="Confirm">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="2964" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-63" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="KAH90aynoNlllZTFOcRv-6" value="Notify customers who wishlisted this product">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1502" y="3018" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-64" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="Confirm notifications sent">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="3072" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-65" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-2" value="Success">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="3126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-66" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" target="KAH90aynoNlllZTFOcRv-1" value="&quot;Price updated successfully&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="3180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAH90aynoNlllZTFOcRv-70" edge="1" parent="1" source="KAH90aynoNlllZTFOcRv-8" style="html=1;verticalAlign=bottom;endArrow=none;dashed=1;endSize=8;curved=0;rounded=0;entryX=-0.004;entryY=0.341;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.006;exitY=0.356;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" target="KAH90aynoNlllZTFOcRv-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543.5" y="620" />
+            </Array>
+            <mxPoint x="583.5" y="620" as="sourcePoint" />
+            <mxPoint x="503.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
