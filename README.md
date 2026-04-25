@@ -17,3 +17,17 @@ When they choose to checkout, they need to enter a shipping address, pick a paym
 
 
 
+### Online Bookstore System: A Project Overview
+
+The Online Bookstore and Recommendation System is a web-based platform designed to facilitate seamless book browsing, purchasing, and personalized discovery. It connects customers, sellers, and administrators to create an efficient digital marketplace for books.
+
+Customers must register and log in using their credentials. Once logged in, they can browse available books by category, author, or genre, add items to their cart, and proceed to checkout. Customers can leave reviews and ratings for purchased books, track their order history, and manage their profile details such as password and contact information. If the provided information is invalid, the system prompts them to re-enter correct details.
+
+The recommendation engine analyzes each customer's purchase history, browsing behavior, and ratings to generate personalized book suggestions. Customers receive recommendations on their homepage and via email notifications. They can also explore curated lists such as bestsellers, new arrivals, and trending titles.
+
+Sellers must register and log into the system. They can list books with full details (title, author, genre, price, and stock quantity), manage their inventory, and update pricing. Sellers receive notifications about new orders and update order statuses accordingly. They can also respond to customer reviews.
+
+Administrators manage the overall system, ensuring smooth and secure operation. They handle user account management, monitor transactions, resolve disputes, and ensure compliance with platform policies. Administrators can suspend or remove fraudulent accounts and oversee the recommendation algorithm's performance.
+
+
+
