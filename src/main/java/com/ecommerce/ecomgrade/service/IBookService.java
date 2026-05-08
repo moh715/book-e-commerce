@@ -1,4 +1,4 @@
-package service;
+package com.ecommerce.ecomgrade.service;
 
 import com.ecommerce.ecomgrade.model.Book;
 import com.ecommerce.ecomgrade.payload.request.BookRequest;

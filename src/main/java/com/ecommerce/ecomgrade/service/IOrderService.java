@@ -1,4 +1,4 @@
-package service;
+package com.ecommerce.ecomgrade.service;
 
 import com.ecommerce.ecomgrade.model.OrderItem;
 import com.ecommerce.ecomgrade.model.User;
