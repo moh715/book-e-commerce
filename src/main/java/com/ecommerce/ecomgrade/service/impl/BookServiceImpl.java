@@ -1,14 +1,14 @@
 package com.ecommerce.ecomgrade.service.impl;
 
-import com.bookverse.exception.APIException;
-import com.bookverse.exception.ResourceNotFound;
-import com.bookverse.model.Book;
-import com.bookverse.model.Category;
-import com.bookverse.payload.request.BookRequest;
-import com.bookverse.payload.response.BookResponse;
-import com.bookverse.repository.BookRepository;
-import com.bookverse.repository.CategoryRepository;
-import com.bookverse.service.IBookService;
+import com.ecommerce.ecomgrade.exception.APIException;
+import com.ecommerce.ecomgrade.exception.ResourceNotFound;
+import com.ecommerce.ecomgrade.model.Book;
+import com.ecommerce.ecomgrade.model.Category;
+import com.ecommerce.ecomgrade.payload.request.BookRequest;
+import com.ecommerce.ecomgrade.payload.response.BookResponse;
+import com.ecommerce.ecomgrade.repository.BookRepository;
+import com.ecommerce.ecomgrade.repository.CategoryRepository;
+import com.ecommerce.ecomgrade.service.IBookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,8 +1,8 @@
 package com.ecommerce.ecomgrade.security;
 
-import com.bookverse.exception.ResourceNotFound;
-import com.bookverse.model.User;
-import com.bookverse.repository.UserRepository;
+import com.ecommerce.ecomgrade.exception.ResourceNotFound;
+import com.ecommerce.ecomgrade.model.User;
+import com.ecommerce.ecomgrade.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

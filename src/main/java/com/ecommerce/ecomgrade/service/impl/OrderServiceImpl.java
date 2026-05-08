@@ -1,14 +1,14 @@
 package com.ecommerce.ecomgrade.service.impl;
 
-import com.bookverse.exception.APIException;
-import com.bookverse.model.Order;
-import com.bookverse.model.OrderItem;
-import com.bookverse.model.User;
-import com.bookverse.payload.response.OrderResponse;
-import com.bookverse.repository.BookRepository;
-import com.bookverse.repository.OrderItemRepository;
-import com.bookverse.repository.OrderRepository;
-import com.bookverse.service.IOrderService;
+import com.ecommerce.ecomgrade.exception.APIException;
+import com.ecommerce.ecomgrade.model.Order;
+import com.ecommerce.ecomgrade.model.OrderItem;
+import com.ecommerce.ecomgrade.model.User;
+import com.ecommerce.ecomgrade.payload.response.OrderResponse;
+import com.ecommerce.ecomgrade.repository.BookRepository;
+import com.ecommerce.ecomgrade.repository.OrderItemRepository;
+import com.ecommerce.ecomgrade.repository.OrderRepository;
+import com.ecommerce.ecomgrade.service.IOrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
