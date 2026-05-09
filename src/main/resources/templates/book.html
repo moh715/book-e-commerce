@@ -17,7 +17,6 @@
 </head>
 <body>
 
-<!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
     <a class="navbar-brand" th:href="@{/books}">Book<span>Verse</span></a>
     <div class="ms-auto d-flex gap-2 align-items-center">
@@ -31,13 +30,11 @@
 
 <div class="container py-5">
 
-    <!-- Flash messages -->
     <div th:if="${successMsg}" class="alert alert-success alert-dismissible fade show">
         <span th:text="${successMsg}"></span>
         <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
     </div>
 
-    <!-- Search bar -->
     <form th:action="@{/books}" method="get" class="row g-2 mb-4">
         <div class="col-md-8">
             <input type="text" name="search" class="form-control form-control-lg"
@@ -51,19 +48,17 @@
         </div>
     </form>
 
-    <!-- Result count -->
     <p class="text-muted mb-3" th:text="|${#lists.size(books)} book(s) found|"></p>
 
-    <!-- No results -->
     <div th:if="${#lists.isEmpty(books)}" class="text-center py-5">
         <h4 class="text-muted">No books found.</h4>
     </div>
 
-    <!-- Book grid -->
+
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" th:each="book : ${books}">
             <div class="card book-card h-100 p-3">
-                <!-- Cover image -->
+ 
                 <img th:if="${book.imageUrl != null and !#strings.isEmpty(book.imageUrl)}"
                      th:src="${book.imageUrl}" class="card-img-top rounded mb-2"
                      style="height:180px; object-fit:cover;" th:alt="${book.title}">
@@ -72,7 +67,7 @@
                      style="height:180px; font-size:3rem;">📚</div>
 
                 <div class="card-body p-1">
-                    <!-- Category badge -->
+  
                     <span th:if="${book.categoryName != null}"
                           class="badge badge-category mb-1"
                           th:text="${book.categoryName}"></span>
@@ -87,7 +82,6 @@
                        th:text="|In stock: ${book.stock}|"></p>
                 </div>
 
-                <!-- Add to cart form -->
                 <form th:action="@{/add-to-cart}" method="post" class="px-1 pb-2 d-flex gap-2">
                     <input type="hidden" name="bookId" th:value="${book.id}">
                     <input type="number" name="quantity" value="1" min="1" th:max="${book.stock}"
