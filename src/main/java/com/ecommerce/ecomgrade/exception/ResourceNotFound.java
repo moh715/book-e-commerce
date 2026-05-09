@@ -1,6 +1,6 @@
 package com.ecommerce.ecomgrade.expception;
 
-public class ResourceNotFound extends RuntimeException {
+public class    ResourceNotFound extends RuntimeException {
 
     public ResourceNotFound(String resource, String field, String value) {
         super(String.format("%s not found with %s: %s", resource, field, value));
