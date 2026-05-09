@@ -31,17 +31,14 @@ public class SecurityConfig {
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        http
-            .authenticationProvider(authProvider())
-            .authorizeHttpRequests(auth -> auth
+        http.authenticationProvider(authProvider()).authorizeHttpRequests(auth -> auth
                 .requestMatchers("/admin/**").hasRole("ADMIN")
                 .requestMatchers("/cart", "/checkout", "/orders", "/add-to-cart", "/remove-from-cart")
                     .authenticated()
                 .requestMatchers("/books").authenticated()
                 .anyRequest().permitAll()
             )
-            .formLogin(form -> form
-                .loginPage("/login")
+            .formLogin(form -> form.loginPage("/login")
                 .loginProcessingUrl("/login")
                 .usernameParameter("email")
                 .passwordParameter("password")
