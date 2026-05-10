@@ -17,20 +17,37 @@ public class OrderServiceImpl implements IOrderService {
     @Autowired private BookRepository bookRepository;
 
     @Override
-    public OrderResponse createOrder(User user, List<OrderItem> items, Double total) {
-        if (items == null || items.isEmpty())
-            throw new APIException("Cart is empty.");
+    public OrderResponse createOrder(User user, Cart cart, Address address) {
+        if (cart.getItems().isEmpty()) throw new APIException("Cart is empty.");
+
         Order order = new Order();
-        order.setUser(user); order.setOrderDate(LocalDate.now());
-        order.setTotalPrice(total); order.setItems(items);
-        Order saved = orderRepository.save(order);
-        for (OrderItem item : items) {
-            item.setOrder(saved);
-            orderItemRepository.save(item);
-            Book b = item.getBook();
-            b.setStock(b.getStock() - item.getQuantity());
+        order.setUser(user);
+        order.setAddress(address);
+        order.setOrderDate(LocalDate.now());
+        order.setStatus("PENDING");
+
+        double total = 0;
+        List<OrderItem> orderItems = new ArrayList<>();
+
+        for (CartItem ci : cart.getItems()) {
+            OrderItem oi = new OrderItem();
+            oi.setBook(ci.getBook());
+            oi.setQuantity(ci.getQuantity());
+            oi.setPriceAtPurchase(ci.getBook().getPrice());   // snapshot
+            oi.setOrder(order);
+            orderItems.add(oi);
+
+            // decrement stock
+            Book b = ci.getBook();
+            b.setStock(b.getStock() - ci.getQuantity());
             bookRepository.save(b);
+
+            total += ci.getBook().getPrice() * ci.getQuantity();
         }
+
+        order.setTotalPrice(total);
+        order.setItems(orderItems);
+        Order saved = orderRepository.save(order);
         return toResponse(saved);
     }
 
@@ -56,4 +73,8 @@ public class OrderServiceImpl implements IOrderService {
         }
         return r;
     }
+
+
+
+
 }

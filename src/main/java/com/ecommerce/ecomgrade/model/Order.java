@@ -38,4 +38,17 @@ public class Order {
 
     public List<OrderItem> getItems() { return items; }
     public void setItems(List<OrderItem> items) { this.items = items; }
+
+
+    private String status = "PENDING";   // PENDING, SHIPPED, DELIVERED, CANCELLED
+
+    @ManyToOne
+    @JoinColumn(name = "address_id")
+    private Address address;
+
+    public String getStatus() { return status; }
+    public void setStatus(String status) { this.status = status; }
+    public Address getAddress() { return address; }
+    public void setAddress(Address address) { this.address = address; }
+
 }
