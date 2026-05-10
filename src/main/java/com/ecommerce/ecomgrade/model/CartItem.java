@@ -3,7 +3,7 @@ package com.ecommerce.ecomgrade.model;
 import jakarta.persistence.*;
 
 @Entity
-public class OrderItem {
+public class CartItem {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -12,28 +12,19 @@ public class OrderItem {
     private Integer quantity;
 
     @ManyToOne
+    @JoinColumn(name = "book_id")
     private Book book;
 
     @ManyToOne
-    private Order order;
-
-    public OrderItem() {}
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
 
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
-
     public Integer getQuantity() { return quantity; }
     public void setQuantity(Integer quantity) { this.quantity = quantity; }
-
     public Book getBook() { return book; }
     public void setBook(Book book) { this.book = book; }
-
-    public Order getOrder() { return order; }
-    public void setOrder(Order order) { this.order = order; }
-
-    private Double priceAtPurchase;
-
-    public Double getPriceAtPurchase() { return priceAtPurchase; }
-    public void setPriceAtPurchase(Double p) { this.priceAtPurchase = p; }
-
+    public Cart getCart() { return cart; }
+    public void setCart(Cart cart) { this.cart = cart; }
 }
