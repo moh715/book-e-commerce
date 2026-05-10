@@ -33,12 +33,17 @@ public class SecurityConfig {
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authenticationProvider(authProvider()).authorizeHttpRequests(auth -> auth
                 .requestMatchers("/admin/**").hasRole("ADMIN")
-                .requestMatchers("/cart", "/checkout", "/orders", "/add-to-cart", "/remove-from-cart")
-                    .authenticated()
-                .requestMatchers("/books").authenticated()
+                .requestMatchers(
+                        "/cart", "/cart/**",
+                        "/add-to-cart",
+                        "/addresses", "/addresses/**",
+                        "/checkout", "/checkout/**",
+                        "/orders", "/books"
+                ).authenticated()
                 .anyRequest().permitAll()
-            )
-            .formLogin(form -> form.loginPage("/login")
+        )
+
+                .formLogin(form -> form.loginPage("/login")
                 .loginProcessingUrl("/login")
                 .usernameParameter("email")
                 .passwordParameter("password")
