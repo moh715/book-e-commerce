@@ -65,12 +65,7 @@
                 <div class="field-error" th:if="${#fields.hasErrors('state')}" th:errors="*{state}"></div>
             </div>
 
-            <div class="col-md-6">
-                <label class="form-label">Zip Code</label>
-                <input type="text" th:field="*{zipCode}" class="form-control"
-                       th:classappend="${#fields.hasErrors('zipCode')} ? 'is-invalid'" placeholder="11511">
-                <div class="field-error" th:if="${#fields.hasErrors('zipCode')}" th:errors="*{zipCode}"></div>
-            </div>
+
 
             <div class="col-md-6">
                 <label class="form-label">Country</label>
