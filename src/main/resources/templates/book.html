@@ -58,7 +58,7 @@
     <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col" th:each="book : ${books}">
             <div class="card book-card h-100 p-3">
- 
+
                 <img th:if="${book.imageUrl != null and !#strings.isEmpty(book.imageUrl)}"
                      th:src="${book.imageUrl}" class="card-img-top rounded mb-2"
                      style="height:180px; object-fit:cover;" th:alt="${book.title}">
@@ -67,7 +67,7 @@
                      style="height:180px; font-size:3rem;">📚</div>
 
                 <div class="card-body p-1">
-  
+
                     <span th:if="${book.categoryName != null}"
                           class="badge badge-category mb-1"
                           th:text="${book.categoryName}"></span>

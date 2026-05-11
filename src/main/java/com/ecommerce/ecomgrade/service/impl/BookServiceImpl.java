@@ -15,6 +15,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+
+
+
 @Service
 public class BookServiceImpl implements IBookService {
 
@@ -77,7 +80,7 @@ public class BookServiceImpl implements IBookService {
         if (keyword == null || keyword.isBlank()) {
             throw new APIException("Search keyword cannot be empty.");
         }
-        return bookRepository.findByTitleContaining(keyword).stream()
+        return bookRepository.findByTitleContainingIgnoreCase(keyword).stream()
                 .map(this::toResponse)
                 .collect(Collectors.toList());
     }

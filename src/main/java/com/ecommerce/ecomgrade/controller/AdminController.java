@@ -23,7 +23,7 @@ public class AdminController {
     @Autowired private OrderRepository orderRepository;
     @Autowired private IBookService bookService;
 
-    // ── Dashboard ──────────────────────────────────────────────────────────
+
     @GetMapping
     public String dashboard(Model model) {
         model.addAttribute("totalBooks",    bookRepository.count());
@@ -33,7 +33,6 @@ public class AdminController {
         return "admin/dashboard";
     }
 
-    // ── Categories ─────────────────────────────────────────────────────────
     @GetMapping("/categories")
     public String categories(Model model) {
         model.addAttribute("categories", categoryRepository.findAll());
@@ -59,7 +58,7 @@ public class AdminController {
         return "redirect:/admin/categories";
     }
 
-    // ── Books ──────────────────────────────────────────────────────────────
+
     @GetMapping("/books")
     public String books(Model model) {
         model.addAttribute("books",      bookRepository.findAll());
