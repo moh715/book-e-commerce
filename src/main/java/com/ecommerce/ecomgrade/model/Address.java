@@ -1,7 +1,6 @@
 package com.ecommerce.ecomgrade.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
 
 @Entity
 public class Address {
@@ -10,12 +9,12 @@ public class Address {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @NotBlank private String fullName;
-    @NotBlank private String street;
-    @NotBlank private String city;
-    @NotBlank private String state;
-    @NotBlank private String zipCode;
-    @NotBlank private String country;
+    private String fullName;
+    private String street;
+    private String city;
+    private String state;
+    private String zipCode;
+    private String country;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
