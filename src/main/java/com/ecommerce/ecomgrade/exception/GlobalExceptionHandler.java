@@ -1,35 +1,32 @@
 package com.ecommerce.ecomgrade.exception;
 
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import org.springframework.validation.FieldError;
-import org.springframework.web.bind.MethodArgumentNotValidException;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import java.util.HashMap;
-import java.util.Map;
-
-@RestControllerAdvice
+// @ControllerAdvice handles exceptions for Thymeleaf (MVC) controllers.
+// It returns HTML pages instead of raw JSON — which is what we want in this app.
+@ControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<Map<String, String>> handleValidation(MethodArgumentNotValidException ex) {
-        Map<String, String> errors = new HashMap<>();
-        ex.getBindingResult().getAllErrors().forEach(err -> {
-            String field = ((FieldError) err).getField();
-            errors.put(field, err.getDefaultMessage());
-        });
-        return new ResponseEntity<>(errors, HttpStatus.BAD_REQUEST);
-    }
-
+    // Handles our custom "not found" exception
     @ExceptionHandler(ResourceNotFound.class)
-    public ResponseEntity<String> handleNotFound(ResourceNotFound ex) {
-        return new ResponseEntity<>(ex.getMessage(), HttpStatus.NOT_FOUND);
+    public String handleNotFound(ResourceNotFound ex, Model model) {
+        model.addAttribute("errorMsg", ex.getMessage());
+        return "error";   // renders templates/error.html
     }
 
+    // Handles our custom "bad request" exception
     @ExceptionHandler(APIException.class)
-    public ResponseEntity<String> handleAPIException(APIException ex) {
-        return new ResponseEntity<>(ex.getMessage(), HttpStatus.BAD_REQUEST);
+    public String handleAPIException(APIException ex, Model model) {
+        model.addAttribute("errorMsg", ex.getMessage());
+        return "error";   // renders templates/error.html
+    }
+
+    // Catch-all for any unexpected exception
+    @ExceptionHandler(Exception.class)
+    public String handleGeneral(Exception ex, Model model) {
+        model.addAttribute("errorMsg", "Something went wrong: " + ex.getMessage());
+        return "error";
     }
 }

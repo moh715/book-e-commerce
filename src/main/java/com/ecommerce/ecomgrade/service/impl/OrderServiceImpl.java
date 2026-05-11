@@ -66,7 +66,8 @@ public class OrderServiceImpl implements IOrderService {
                 OrderResponse.OrderItemResponse ir = new OrderResponse.OrderItemResponse();
                 ir.setBookTitle(i.getBook().getTitle());
                 ir.setQuantity(i.getQuantity());
-                ir.setUnitPrice(i.getBook().getPrice());
+                // Use the price snapshot recorded at purchase time, not the current book price
+                ir.setUnitPrice(i.getPriceAtPurchase());
                 return ir;
             }).collect(Collectors.toList());
             r.setItems(list);
