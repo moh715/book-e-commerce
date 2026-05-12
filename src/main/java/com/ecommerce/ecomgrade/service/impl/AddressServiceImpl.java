@@ -30,6 +30,7 @@ public class AddressServiceImpl implements IAddressService {
         address.setStreet(req.getStreet());
         address.setCity(req.getCity());
         address.setState(req.getState());
+        address.setZipCode(req.getZipCode());
         address.setCountry(req.getCountry());
         address.setUser(user);
         return addressRepository.save(address);
