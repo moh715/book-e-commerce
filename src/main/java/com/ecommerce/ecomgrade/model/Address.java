@@ -13,7 +13,10 @@ public class Address {
     private String street;
     private String city;
     private String state;
+
+    @Column(nullable = true)
     private String zipCode;
+
     private String country;
 
     @ManyToOne

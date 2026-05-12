@@ -14,8 +14,8 @@
 <body>
 <div class="error-container">
     <div class="error-code">⚠️ Error</div>
-    <p class="error-message" th:if="${errorMsg}" th:text="${errorMsg}">An error occurred</p>
-    <p class="error-message" th:if="${!errorMsg}">Something went wrong. Please try again.</p>
+    <p class="error-message" th:if="${errorMsg != null}" th:text="${errorMsg}">An error occurred</p>
+    <p class="error-message" th:if="${errorMsg == null}">Something went wrong. Please try again.</p>
     <a href="/" class="btn btn-primary">Go Home</a>
 </div>
 </body>

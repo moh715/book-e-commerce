@@ -34,17 +34,24 @@ package com.ecommerce.ecomgrade.configuration;
         @Bean
         public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
             http.authenticationProvider(authProvider())
-                .authorizeHttpRequests(auth -> auth
-                    .requestMatchers("/admin/**").hasRole("ADMIN")
-                    .requestMatchers(
-                            "/cart", "/cart/**",
-                            "/add-to-cart",
-                            "/addresses", "/addresses/**",
-                            "/checkout", "/checkout/**",
-                            "/orders", "/books"
-                    ).authenticated()
-                    .anyRequest().permitAll()
-                )
+                    .authorizeHttpRequests(auth -> auth
+                            .requestMatchers("/admin/**").hasRole("ADMIN")
+                            .requestMatchers(
+                                    "/cart", "/cart/**",
+                                    "/add-to-cart",
+                                    "/addresses", "/addresses/**",
+                                    "/checkout", "/checkout/**",
+                                    "/orders", "/books"
+                            ).authenticated()
+                            // Swagger/OpenAPI — public, no login needed
+                            .requestMatchers(
+                                    "/swagger-ui/**",
+                                    "/swagger-ui.html",
+                                    "/v3/api-docs/**",
+                                    "/v3/api-docs.yaml"
+                            ).permitAll()
+                            .anyRequest().permitAll()
+                    )
                 .formLogin(form -> form
                     .loginPage("/login")
                     .loginProcessingUrl("/login")
