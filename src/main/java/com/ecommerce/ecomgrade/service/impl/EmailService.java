@@ -12,8 +12,6 @@ public class EmailService {
     private JavaMailSender mailSender;
 
     public void sendOrderConfirmation(String toEmail, Double total) {
-        // We wrap the email in try-catch so that if the email server
-        // is not configured, the order still goes through successfully.
         try {
             SimpleMailMessage message = new SimpleMailMessage();
             message.setTo(toEmail);
@@ -26,8 +24,6 @@ public class EmailService {
             );
             mailSender.send(message);
         } catch (Exception e) {
-            // Log the error but don't crash the application.
-            // In a real project you'd use a logger: log.warn("Email failed: {}", e.getMessage())
             System.err.println("Warning: Could not send confirmation email to " + toEmail + ". Reason: " + e.getMessage());
         }
     }
